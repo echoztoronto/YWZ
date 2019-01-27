@@ -1,1 +1,1 @@
-personal pages: https://echoztoronto.github.io/YWZ/ 
+View: https://echoztoronto.github.io/YWZ/ 
