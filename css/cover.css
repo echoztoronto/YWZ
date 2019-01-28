@@ -1,0 +1,38 @@
+html { 
+    background: url(../image/elderscroll2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+
+
+div.welcome {
+    font-family: Arial;
+    font-size: 4em;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    height: 30%;
+
+    position: absolute; /* Position the background text */
+    bottom: 30%; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+}
+
+div.b { 
+    position: absolute;
+    left: 45%;
+    width: 10%;
+    height: 1.5em;
+    display: inline-block;
+    text-align: center;
+    top: 60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+}
