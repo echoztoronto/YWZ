@@ -34,7 +34,7 @@ h2 {
     text-shadow: 2px 2px black;
 
     height: 3em;
-    background-image: url(/image/gujian2.jpg);
+    background-image: url(../image/gujian2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
