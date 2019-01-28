@@ -95,3 +95,8 @@ ul.body li {
     color: #333;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
+iframe {
+    width: 100%;
+    
+}
