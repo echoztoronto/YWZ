@@ -16,7 +16,7 @@
 		</nav>
 		<div class="container">
     		<div class="text">
-				<a id="projecttop"></a> <h2><br/> Projects</h2>
+				<a id="projectmenu"></a> <h2><br/> Projects</h2>
 				<!--Menu here-->				
 				<ul style="list-style-type: none">
 					<li><a href="#pathage"><h4><em>Pathage</em> (C++)</h4></a></li>
@@ -26,7 +26,6 @@
 					<li><a href="#trail"><h4><em>Beltline Trail</em> </h4></a></li>
 				</ul>
 				
-				<p>*********THIS PAGE IS NOT READY******** need picture sliders *****</p>
 				<!--Details-->
 				<!-- Pathage -->
 				<h3> <a id="pathage"></a> <em>Pathage </em> (C++) </h3>
@@ -38,24 +37,37 @@
 						<li>Can find the shortest path between two places and display the directions</li>
 					</ul>
 				</p>
+				<button id="Mapper Demo-button" onclick = "showdemo('Mapper Demo')"> Show Mapper Demo </button>
+				<div id="Mapper Demo" style="display:none">
+				</br></br>
 				<img src="image/pathage1.png" />
 				<img src="image/pathage2.png" />
 				<img src="image/pathage3.png" />
 				<img src="image/pathage4.png" />
 				<img src="image/pathage5.png" />
 				<img src="image/pathage6.png" />
+				<br/> <br/>
+				<button id="Mapper Demo-button" onclick = "showdemo('Mapper Demo')"> Hide Mapper Demo </button>
+				</div> <br/> <br/> <br/>
 
 				<p><strong>★ Algorithms used: </strong> </p>
 				<p>☆<strong> A*</strong> for finding the shortest path </p>
+				<button id="Algorithm demo 1-button" onclick = "showdemo('Algorithm demo 1')"> Show Algorithm demo 1 </button>
+				<div id="Algorithm demo 1" style="display:none">
+				</br></br>
 				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRFG4vgNQA6Vs74eU2uhDu5uix9ijK-qoLIM2OUMlLEQApLlAnH3JfqGI7piTWq5Oe6JG-pPT96U6aR/embed?start=false&loop=false&delayms=2000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+				</div>
+				
 				<br/>
 				<p>☆ <strong>Greedy, Selection Swap, Pair Swap, 2 Opt</strong> for a more complex pathfinder problem <br/>
 				(given pairs of pick-up and drop-off points, needed to pick-up something before drop-off it, 
 				had to start and end with any of the depots)</p>
+				<button id="Algorithm demo 2-button" onclick = "showdemo('Algorithm demo 2')"> Show Algorithm demo 2 </button>
+				<div id="Algorithm demo 2" style="display:none">
+				</br></br>
 				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmuroXzOLwcL78r6rbaAoJFacGpCETz3l2vAElwP_UGu_IK551xZgN7pj_XsDDhIh-GT6ysleRa7eu/embed?start=false&loop=false&delayms=1000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-			
-				<a href="#projecttop"> <h4>↬ Return to Project Menu ↫</h4></a>
+				</div><br/> <br/>
+				<a href="#projectmenu"> <h4>↬ Return to Project Menu ↫</h4></a>
 
 				<!--Decoder-->
 				<h3> <a id="decoder"></a> <em>LEGO Morse Code Decoder</em> (Assembly)</a> </h3>
@@ -67,7 +79,7 @@
 						<li>Transforms the morse code into hex number, and prints the result on screen</li>		
 					</ul>
 				</p>
-				<a href="#projecttop"> <h4>↬ Return to Project Menu ↫</h4></a>
+				<a href="#projectmenu"> <h4>↬ Return to Project Menu ↫</h4></a>
 
 				<!--2048-->
 				<h3> <a id="2048"></a> <em>2048</em> (Verilog)</h3>
@@ -78,11 +90,17 @@
 						<li>Can choose to display the game in random colors </li>
 					</ul>
 				</p>
+				<button id="2048 Game Demo-button" onclick = "showdemo('2048 Game Demo')"> Show 2048 Game Demo </button>
+				<div id="2048 Game Demo" style="display:none">
+				</br></br>
 				<img src="image/2048_1.png" />
 				<img src="image/2048_2.png" />
 				<img src="image/2048_3.png" />
 				<img src="image/2048_4.png" />
-				<a href="#projecttop"> <h4>↬ Return to Project Menu ↫</h4></a>
+				<button id="2048 Game Demo-button" onclick = "showdemo('2048 Game Demo')"> Hide 2048 Game Demo </button>
+				</div>
+				<br/> <br/>
+				<a href="#projectmenu"> <h4>↬ Return to Project Menu ↫</h4></a>
 
 				<!--Printer-->
 				<h3> <a id="printer"></a> <em>3D Printer</em> (SoildWorks)</h3>
@@ -92,9 +110,13 @@
 						<li>Created each part in SoildWorks</li>
 					</ul>
 				</p>
-				<p><strong>Outcome Preview:</strong></p>
+				
+				<button id="3D-Printer Outcome Preview-button" onclick = "showdemo('3D-Printer Outcome Preview')"> Show 3D-Printer Outcome Preview </button>
+				<div id="3D-Printer Outcome Preview" style="display:none">
+				</br></br>
 				<img src="image/printer.jpg" />
-				<a href="#projecttop"> <h4>↬ Return to Project Menu ↫</h4></a>
+				</div><br/> <br/>
+				<a href="#projectmenu"> <h4>↬ Return to Project Menu ↫</h4></a>
 
 				<!--Trail-->
 				<h3> <a id="trail"></a><em> Beltline Trail </em></h3>
@@ -105,9 +127,26 @@
 						<li>Presented to the client </li>
 					</ul>
 				</p>
-				<p><strong>Presentation Preview:</strong></p>
-				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRKDsH2bz5scIzLefDS-h9LBtgYzEhU4zS9-v5DdnaEGRPY1DOvaHKSNuzOfesrvp2lV7ulzWCfmuyR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-				<a href="#projecttop"> <h4>↬ Return to Project Menu ↫</h4></a>
+
+				<button id="Beltline Trail Solution Slides-button" onclick = "showdemo('Beltline Trail Solution Slides')"> Show Beltline Trail Solution Slides </button>
+				<div id="Beltline Trail Solution Slides" style="display:none">
+				</br></br>
+					<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRKDsH2bz5scIzLefDS-h9LBtgYzEhU4zS9-v5DdnaEGRPY1DOvaHKSNuzOfesrvp2lV7ulzWCfmuyR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>					
+				</div>
+				<script>
+				function showdemo(objstr) {
+					var x = document.getElementById(objstr);
+					if (x.style.display === "none") {
+						x.style.display = "block"; 
+						document.getElementById(objstr + "-button").innerHTML = "Hide " + objstr;
+					} else {
+						x.style.display = "none";
+						document.getElementById(objstr + "-button").innerHTML = "Show " + objstr;
+					}		
+				}
+				</script>
+				<br/> <br/>
+				<a href="#projectmenu"> <h4>↬ Return to Project Menu ↫</h4></a>
 			</div>
 		</div>
 		<footer>
