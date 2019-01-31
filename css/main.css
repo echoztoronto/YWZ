@@ -20,6 +20,8 @@ a {
 a:hover {
     color: black;
 }
+
+
 h1 {
     font-size: 4vmax;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -97,3 +99,7 @@ img {
     max-width: 100%;
 }
 
+button {
+    font-size: 1.5em;
+    width: 40%;
+}

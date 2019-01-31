@@ -23,27 +23,35 @@
 				<a href="other.html"><h4>See some fun stuffs (pictures I took/screenshots I made) </h4></a> 
 				<a href="contact.html"><h4>Check how to reach me</h4> </a>
 				<br/>
-				<a href="https://github.com/echoztoronto/YWZ" target="_blank"><h4 style="font-size: 1em"><em>source code for this site on GitHub</em></h4></a>
-				<br/><br/><br/>
-				<p>Note: this website is still under construction...</p>
 
-				<h3>Update Logs </h3>
-				<!-- Insert updates here --> 
-				<p>(Jan. 29, 2019) Added basic content for "Projects". </p>
-				<p>(Jan. 28, 2019) Created a fancy "Index" page which will come before "Home" page. 
-					Used my favourite screenshot from The Elder Scrolls V as background. <br/>
-					Finished "Home" page with a neat redirect menu, applied this menu style to "Contacts" and "Projects" page.</p>
-				<p>(Jan. 27, 2019)  Constructed the basic layout for 5 pages. Wrote some info on "About" and "Contacts" page. </p>
-				<p>(Jan. 26, 2019) Suddenly had an interest into web developing. Started to learn HTML and CSS.</p>
-    		</div>
+				<br/><br/><br/>
+				
+
+				<button onclick = "window.open('https://github.com/echoztoronto/YWZ')">Source Code on GitHub</button>
+				<button id="log" style="float:right;" onclick = "hide()">Show Update Log </button>
+				<div id="update" style="display:none">
+					<!-- Insert updates here --> 
+					<p>(Jan. 31, 2019) Added a toggle hide button for update log.</p>
+					<p>(Jan. 29, 2019) Added basic content for "Projects". </p>
+					<p>(Jan. 28, 2019) Created a "Index" page which will come before "Home" page. 
+						Used my favourite screenshot from The Elder Scrolls V as background. <br/>
+						Finished "Home" page with a neat redirect menu, applied this menu style to "Contacts" and "Projects" page.</p>
+					<p>(Jan. 27, 2019)  Constructed the basic layout for 5 pages. Wrote some info on "About" and "Contacts" page. </p>
+				</div>
+				<script>
+				function hide() {
+					var x = document.getElementById("update");
+					if (x.style.display === "none") {
+						x.style.display = "block"; 
+						document.getElementById("log").innerHTML = "Hide Update Log";
+					} else {
+						x.style.display = "none";
+						document.getElementById("log").innerHTML = "Show Update Log";
+					}		
+				}
+				</script>
+			</div>
 		</div>
-		<footer>
-    		<ul>
-        		<li><a href="mailto:echo.zheng@mail.utoronto.ca" >Email</a></li>
-        		<li><a href="https://github.com/echoztoronto" target="_blank">GitHub</a></li>
-				<li><a href="http://discord.gg/uq7PkXr" target="_blank">Discord</a></li>
-				<li><a href="index.html">Created by Yuwen Zheng in 2019</a></li>
-            </ul>
-		</footer>
+		<br/><br/><br/><br/><br/><br/>
 	</body>
 </html>
