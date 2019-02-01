@@ -154,3 +154,8 @@ button:hover {
     background-color: black;
     color: white;
 }
+
+.spacer {
+    color: transparent;
+    background: transparent;
+}
