@@ -33,7 +33,6 @@ body {
 }
 
 #navbar {
-    font-size: 2vm;
     overflow: hidden;
     background-color: black;
     top: 0;
@@ -45,6 +44,7 @@ body {
     float: clear;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 1000;
+    font-size: 1.5em;
     z-index: 1;
 }
 
