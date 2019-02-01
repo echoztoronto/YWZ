@@ -138,17 +138,18 @@ iframe {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
+    margin-left: 5%;
+    margin-right: auto;
 }
 
 button {
     font-size: 1em;
     width: 40%;
-    float: right;
-    margin-right: 10%;
+    margin-left: 3em;
     border-radius: 20px;
     border: 2px dashed;
-    background-color: 	rgba(201, 197, 197, 0.548);
+    background-color: 	rgba(201, 197, 197, 0.459);
 }
 button:hover {
     background-color: black;
