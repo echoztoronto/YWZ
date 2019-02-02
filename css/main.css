@@ -213,7 +213,7 @@ button:hover {
 #slide_cap {
     position: fixed;
     text-align: center;
-    bottom: 70%;
+    top: 25%;
     width: 60%;
     margin-left: 20%;
     color: white;
@@ -226,7 +226,7 @@ button:hover {
     width: 70%;
     max-height: 70%;
     margin-left: 15%;
-    bottom: 0%;
+    top: 30%;
     z-index: 999;
     border: 2px solid;
 }
