@@ -159,7 +159,7 @@ button:hover {
     left: 0;
     width: 100%;
     bottom: 0;
-    height: 75%;
+    height: 80%;
     background-color: rgba(14, 13, 13, 0.938);
     z-index: -9999;
 }
@@ -211,9 +211,9 @@ button:hover {
 }
 
 #slide_cap {
-    position: absolute;
+    position: fixed;
     text-align: center;
-    bottom: 71%;
+    bottom: 70%;
     width: 60%;
     margin-left: 20%;
     color: white;
@@ -222,6 +222,7 @@ button:hover {
 }
 
 #slide_image {
+    position: fixed;
     width: 70%;
     max-height: 70%;
     margin-left: 15%;
