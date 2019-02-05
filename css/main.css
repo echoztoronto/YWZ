@@ -165,7 +165,7 @@ button:hover {
 }
 
 #leftarrow {
-    border: solid white;
+    border: solid grey;
     border-width: 0 20px 20px 0;
     display: inline-block;
     padding: 20px;
@@ -178,7 +178,7 @@ button:hover {
 }
 
 #rightarrow {
-    border: solid white;
+    border: solid grey;
     border-width: 0 20px 20px 0;
     display: inline-block;
     padding: 20px;
@@ -229,4 +229,27 @@ button:hover {
     top: 30%;
     z-index: 999;
     border: 2px solid;
+}
+
+#returntop {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-15px,10px);
+}
+
+#returntoparrow {
+    border: solid rgba(0, 0, 0, 0.7);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 8px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
 }

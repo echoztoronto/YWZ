@@ -52,3 +52,45 @@ function slideswap(n) {
         break;        
     }
 }
+
+//slider arrow response
+function arrow(objstr) {
+    document.getElementById(objstr).style.borderColor="white";
+}
+
+function arrowreset(objstr){
+    document.getElementById(objstr).style.borderColor="grey";
+}
+
+//return to project menu button response
+var c = 0;
+var a = 0;
+function returntopon(x) {
+    if (x==c) {
+        c = 1;
+    }
+    else {
+        a = 1;
+    }
+    returntopresponse();
+}
+
+function returntopoff(x) {
+    if (x==c) {
+        c = 0;
+    }
+    else {
+        a = 0;
+    }
+    returntopresponse();
+}
+
+function returntopresponse() {
+    if (c + a == 0) {
+        document.getElementById("returntop").style.background="rgba(255, 255, 255, 0.7)";
+        document.getElementById("returntoparrow").style.borderColor="rgba(0, 0, 0, 0.7)";
+    } else {
+        document.getElementById("returntop").style.background="rgba(255, 255, 255, 0.5)";
+        document.getElementById("returntoparrow").style.borderColor="rgba(0, 0, 0)";
+    }
+}
