@@ -1,4 +1,3 @@
-
 // Toggle button for hiding/showing elements
 function showdemo(objstr) {
     var x = document.getElementById(objstr);
