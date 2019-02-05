@@ -87,8 +87,8 @@ function returntopoff(x) {
 
 function returntopresponse() {
     if (c + a == 0) {
-        document.getElementById("returntop").style.background="rgba(255, 255, 255, 0.7)";
-        document.getElementById("returntoparrow").style.borderColor="rgba(0, 0, 0, 0.7)";
+        document.getElementById("returntop").style.background="rgba(255, 255, 255, 0.3)";
+        document.getElementById("returntoparrow").style.borderColor="rgba(0, 0, 0)";
     } else {
         document.getElementById("returntop").style.background="rgba(255, 255, 255, 0.5)";
         document.getElementById("returntoparrow").style.borderColor="rgba(0, 0, 0)";
