@@ -1,3 +1,3 @@
-View: https://echoztoronto.github.io/YWZ/ 
+[View Website Here](https://echoztoronto.github.io/YWZ/)
 
-[Website](https://echoztoronto.github.io/YWZ/)
+First project of HTML, CSS and Javascript
